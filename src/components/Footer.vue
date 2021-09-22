@@ -42,7 +42,7 @@ export default {
 .r-c {
   background-color: $my-black;
 
-  padding: 55px 25px 55px 55px;
+  padding: 15px 25px 15px 55px;
   display: flex;
 	flex-wrap: wrap;
   justify-content: space-between;
@@ -55,7 +55,7 @@ export default {
 			img {
 				margin: auto;
 				display: block;
-				max-width: 70%;
+				max-width: 35%;
 			} 
 			p {
 				color: white;
@@ -71,7 +71,7 @@ export default {
 			flex-direction: column;
 			font-family: 'Roboto-Bold';
 			color: white;
-			font-size: 32px;
+			font-size: 22px;
 
 			div {
 				display: flex;
@@ -79,7 +79,7 @@ export default {
 			}
 
 			img {
-				max-width: 35px;
+				max-width: 25px;
 			}
 		}
   }

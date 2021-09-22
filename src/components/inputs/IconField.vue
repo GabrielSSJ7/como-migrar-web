@@ -3,7 +3,7 @@
     <div class="icon">
       <img :src="require(`../../assets/img/icons/${icon}`)" :alt="icon" />
     </div>
-    <input type="text" :placeholder="placeholder" />
+		<slot></slot>
   </v-row>
 </template>
 
